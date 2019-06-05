@@ -29,5 +29,5 @@ instance, to run the dynamic emulator:
     tox -e venv -- sushy-emulator
 
 For more information on running the emulators, refer to the user docs for the
-[dynamic-emulator](../user/dynamic-emulator.rst) and [the static-emulator]
+:doc:`dynamic-emulator <../user/dynamic-emulator.rst>` and [the static-emulator]
 (../user/dynamic-emulator.rst).
