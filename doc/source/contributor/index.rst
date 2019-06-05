@@ -14,27 +14,20 @@ from git.
 
 .. code-block:: bash
 
-    # from your home or source directory
-    cd ~
+    # from the directory where you want the source code to reside
     git clone https://opendev.org/openstack/sushy-tools
 
 
 Running the emulators locally
 +++++++++++++++++++++++++++++
 
-Run the unit tests and activate the virtual environment:
+Activate the virtual environment and run the emulator of your choice. For
+instance, to run the dynamic emulator:
 
 .. code-block:: bash
 
-    tox -e py3
-    source .tox/py3/bin/activate
+    tox -e venv -- sushy-emulator
 
-Now, you can run your choice of emulator. For instance, to run the dynamic
-emulator:
-
-.. code-block:: bash
-
-    sushy-emulator
-
-More information on running the emulators, refer to the user docs for the
-dynamic-emulator and the static-emulator.
+For more information on running the emulators, refer to the user docs for the
+[dynamic-emulator](../user/dynamic-emulator.rst) and [the static-emulator]
+(../user/dynamic-emulator.rst).
